@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:movie_app/model/movies_model.dart';
-import 'package:movie_app/pages/home.dart';
 import 'package:movie_app/presentation/DetailMovie/components/buy_ticket_button.dart';
 import 'package:movie_app/presentation/DetailMovie/components/movie_description_section.dart';
 import 'package:movie_app/presentation/DetailMovie/components/movie_rating_section.dart';
