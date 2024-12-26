@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:movie_app/presentation/CinemasPage/cinemas_page.dart';
+import 'package:movie_app/presentation/ProfilePage/profile_page.dart';
+import 'package:movie_app/presentation/TicketsPage/tickets_page.dart';
 import 'package:movie_app/presentation/custom_app_bar.dart';
 import 'package:movie_app/presentation/HomePage/home_page.dart';
 import 'package:movie_app/presentation/custom_bottom_navigation_bar.dart';
@@ -58,63 +61,6 @@ class _MainPageState extends State<MainPage> {
       bottomNavigationBar: CustomBottomNavigationBar(
         selectedIndex: _selectedIndex,
         onTap: _onItemTapped,
-      ),
-    );
-  }
-}
-
-class CinemasPage extends StatelessWidget {
-  const CinemasPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          "Cinemas Page",
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class TicketsPage extends StatelessWidget {
-  const TicketsPage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          "Tickets Page",
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
-      ),
-    );
-  }
-}
-
-class ProfilePage extends StatelessWidget {
-  const ProfilePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
-        child: Text(
-          "Profile Page",
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-          ),
-        ),
       ),
     );
   }
